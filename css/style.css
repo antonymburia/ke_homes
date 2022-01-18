@@ -13,7 +13,8 @@
     
     }
     .About{
-    background-image: url('../images/grey b.jpg');
-    
+    background-image: url('../images/marble.jpg');
+    background-size: cover;
+        height: 400px;
     
     }
