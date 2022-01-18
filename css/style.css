@@ -15,16 +15,29 @@
     .About{
     background-image: url('../images/marble.jpg');
     background-size: cover;
-        height: 400px;
+        height: 300px;
        
     
     }
+    .About h1{
+        text-align: center;
+    }
     .About p{
         text-align: center;
-        padding-bottom: 50px;
-        padding-top: 100px;
-        font-family: 'Times New Roman', Times, serif;
+     font-family: 'Times New Roman', Times, serif;
         font-style: italic;
-        font-size: 40px;
+        font-size: 30px;
+        
         
     }
+    .lc{
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .conso{
+        display: flex;
+    justify-content: space-between;
+    }
+    .
