@@ -40,4 +40,7 @@
         display: flex;
     justify-content: space-between;
     }
-    .
+    .sv{
+        background-image: url('../images/marble.jpg');
+        text-align: center;
+    }
