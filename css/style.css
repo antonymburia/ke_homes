@@ -16,5 +16,15 @@
     background-image: url('../images/marble.jpg');
     background-size: cover;
         height: 400px;
+       
     
+    }
+    .About p{
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 100px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 40px;
+        
     }
