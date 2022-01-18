@@ -1,0 +1,19 @@
+.navbar{
+    background-image: url('../images/bghousing.jpg');
+    background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 700px;
+    
+    
+    }
+    .home{
+    display: flex;
+    justify-content: space-between;
+    
+    }
+    .About{
+    background-image: url('../images/grey b.jpg');
+    
+    
+    }
