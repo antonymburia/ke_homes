@@ -14,7 +14,7 @@ function filterresults(){
     
    } 
    else {
-     if (room == 'house 3' && location == 'kahawa' && maxprice >= onebr) {
+     if (room == 'house3' && location == 'kahawa' && maxprice >= onebr) {
       var result = document.getElementById("1");
      } else {
        if (room == 'house2' && location == 'kilimani' && maxprice >= twobr) {
