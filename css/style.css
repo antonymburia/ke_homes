@@ -1,0 +1,75 @@
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+@keyframes slider{
+    0% {
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%
+    }
+    100%{
+        left: -400%;
+    }
+
+}
+
+h4{
+    text-align: center;
+    color: steelblue;
+}
+
+.contact{
+    display: inline-flex;
+    gap: 24px;
+}
+
+input{
+    margin-top: 24px;
+    height: 55px;
+}
+
+.date, .time{
+    width: 220px;
+    margin-bottom: 24px;
+}
+
+.textarea{
+    width: 465px;
+    margin-bottom: 24px;
+}
+
+#title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+}
