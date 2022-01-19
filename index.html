@@ -21,81 +21,49 @@
   <h1>LET YOUR DREAMS HOUSE COME TO YOU!A PERFECT PLACE TO FIND YOUR HOME</h1>
 </marquee>
     </nav>
- 
-<div class="bg">
-    <div class="reg">
-  <div class="card" style="width: 25rem;">
-    <div class="card-body">
-      <h2>Search, find and book from anywhere</h2>
-      <div class="sign">
-        <label id="fname" for="fname">First Name</label>
-        <input
-          type="text"
-          name="name"
-          placeholder="Enter your first name"
-          required
-        />
-        <div class="error"></div>
-      </div>
-      <div class="sign">
-        <label id="lname" for="lname">Last Name:</label>
-        <input
-          type="text"
-          address="lname"
-          placeholder="Enter your last name"
-          required
-        />
-        <div class="error"></div>
-      </div>
-      <div class="sign">
-        <label id="email" for="email">Email:</label>
-        <input
-          type="email"
-          email="email"
-          placeholder="Enter you email"
-          required
-          />
-        <div class="error"></div>
-      </div>
-      <div class="sign">
-        <label for="Available house">Available house:</label>
-        <select name="dropdowm" id="dropdown">
-          <option value=""></option>
-          <option value="House1">Massionate</option>
-          <option value="house2">2 bedroom</option>
-          <option value="house 2">one bedroom</option>
-          <option value="acrylic">Hostel</option>
-        </select>
-      </div>
-      <div class="sign">
-        <label id=" location" for="location">Location:</label>
-        <select name="dropdowm" id="dropdown">
+ <div class="bg">
+<div class="reg">
+  <form class="f">
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="No of rooms">Number of rooms</label>
+      <select name="dropdowm" id="rooms">
+        <option value=""></option>
+        <option value="House1">Massionate</option>
+        <option value="house2">2 bedroom</option>
+        <option value="house 2">one bedroom</option>
+        <option value="studio">Studio</option>
+      </select>
+      <input type="rooms" class="form-control" id="number of rooms" placeholder="Number of rooms">
+    </div>
+
+    <div class="form-group">
+      <label for="Location">Location:</label>
+        <select name="dropdowm" id="location">
           <option value=""></option>
           <option value="House1">Ngong</option>
           <option value="house2">Kilimani</option>
-          <option value="house 3">kahava</option>
+          <option value="house 3">Kahawa</option>
           <option value="house 4">Juja</option>
         </select>
-        <div class="error"></div>
-      </div>
-      <div class="sign">
-        <label id="maximum price" for="max price">Max price:</label>
-        <input
-          type="maximum price"
-          password="max price"
-          placeholder="Enter the maximum price you want to spend"
-          required
-        />
-      </div>
-      <div class="p-3 mb-2 bg-primary text-white">Search</div>
-      
-  
-    </form>
+
+      <input type="location" class="form-control" id="location" placeholder="Location">
+    </div>
+    <div class="form-group">
+    <label for="price">Maximum price</label>
+    <input type="price" class="form-control" id="price" aria-describedby="emailHelp" placeholder="Max price you want to spend">
+    
   </div>
+
+<button type="submit" class="btn btn-p-3 mb-2 bg-primary">Search</button>
+  </form>
+
+</div>
   </div>
-</div>
-</div>
- 
 <br>
 <br>
 <div class="container">
@@ -108,7 +76,7 @@
     <div class="col">
       <div><img src="images/bk h.jpg" height ="200"alt="" />
         <p>This Massionate have been listed <br> home/ke agents who can be contacted using the <br> information provided for each apartment listing. <br> list can be filtered by price, furnishing and recency.</p>
-        <h4>(ksh 50,000)</h4>
+        <h4>(ksh 40,000)</h4>
         <button type="button" class="btn btn-outline-secondary">View property</button>
       </div>
 </div>
@@ -116,7 +84,7 @@
       <div><img src="images/ap2.jpg"height= "200" alt="" />
         <p>This 2 bedroom apartments have been listed <br> home/ke agents who can be contacted using the <br> information provided for each apartment listing. <br> list can be filtered by price, furnishing and recency.</p>
       
-    <h4>(ksh 35,000)</h4>
+    <h4>(ksh 30,000)</h4>
     <button type="button" class="btn btn-outline-secondary">View property</button>
     </div>
     <br>
