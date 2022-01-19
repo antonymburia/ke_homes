@@ -29,4 +29,6 @@ function filterresults(){
        }
      }
    }
+  //  display results
+  document.getElementById("results").innerHTML =  result.innerHTML
 }
