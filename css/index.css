@@ -1,0 +1,70 @@
+.About{
+  background-image: url('../images/marble.jpg');
+  text-align: center;
+  font-style: italic;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .bg{
+      background-image: url('../images/fam.jpg');
+      background-repeat: no-repeat;
+          background-size: cover;
+          background-position: bottom;
+          height:700 px;
+          
+  }
+  .reg{
+      background-position: center;
+      padding-left: 70%;
+      height: 700px;
+      
+  }
+  .f{
+  background-color:orange;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: 50px;
+  padding-top: 40px;
+  
+  }
+  .card-body{
+      background-color: 
+      width: 400px;
+  }
+  .sign{
+      font-size: 15pt;
+      font-weight: lighter;
+  }
+  #button{
+      size: 30px;
+  
+  }
+  .av{
+      text-align: left;
+      padding-bottom: 20px;
+      padding-right: 40px;
+      margin-top: -220px;
+      color: steelblue;
+  }
+  .t{
+      color: steelblue;
+      text-align: center;
+  }
+  .container{
+      background-image: url('../images/marble.jpg');
+  }
+  .footer{
+     display: flex;
+     justify-content: space-evenly;
+     background-color:black; 
+     color: white;
+     height: 200px;
+  }
+  .navbar-brand{
+      color: black;
+  }
+  .section5{
+      text-align: center;
+      color: black;
+  }
