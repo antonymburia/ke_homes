@@ -23,7 +23,7 @@ font-family: 'Times New Roman', Times, serif;
     padding-top: 100px;
 }
 .card-body{
-    background-color: rgb(250, 237, 250);
+    background-color: 
     width: 400px;
 }
 .sign{
@@ -39,4 +39,26 @@ font-family: 'Times New Roman', Times, serif;
     padding-bottom: 20px;
     padding-right: 40px;
     margin-top: -220px;
+    color: steelblue;
+}
+.t{
+    color: steelblue;
+    text-align: center;
+}
+.container{
+    background-image: url('../images/marble.jpg');
+}
+.footer{
+   display: flex;
+   justify-content: space-evenly;
+   background-color:black; 
+   color: white;
+   height: 200px;
+}
+.navbar-brand{
+    color: black;
+}
+.section5{
+    text-align: center;
+    color: black;
 }
