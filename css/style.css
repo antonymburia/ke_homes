@@ -26,3 +26,17 @@ font-family: 'Times New Roman', Times, serif;
     background-color: rgb(250, 237, 250);
     width: 400px;
 }
+.sign{
+    font-size: 15pt;
+    font-weight: lighter;
+}
+#button{
+    size: 30px;
+
+}
+.av{
+    text-align: left;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    margin-top: -220px;
+}
