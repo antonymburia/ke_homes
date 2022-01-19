@@ -4,118 +4,138 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <script src="javascript"></script>
+<script src="javascript"></script>
     <title>HOME.KE</title>
 </head>
-<body>
-    <div class="navbar">
+<body >
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
       <button>HOME.KE</button>
-<li><a href="FIND A HOUSE"></a>LOG IN</li>
+      <a href="FIND A HOUSE"></a>LOG IN</li>
 <li><a href="FIND A HOUSE"></a>FIND A HOUSE</li>
 <li><a href="LOCATION"></a> LOCATION</li>
 <li><a href="HOUSE TYPE"></a> HOUSE TYPE</li>
 <marquee behavior="scroll" direction="left">
   <h1>LET YOUR DREAMS HOUSE COME TO YOU!A PERFECT PLACE TO FIND YOUR HOME</h1>
 </marquee>
+    </div>
+  </nav>
 
-        <div class="registration">
-          <form id="Home .ke" action="/index.html" method="post">
-            <h2 class="sign">Registration</h2>
-            <div class="sign">
-              <label id="fname" for="fname">First Name</label>
-              <input
-                type="text"
-                name="name"
-                placeholder="Enter your first name"
-                required
-              />
-              <div class="error"></div>
-            </div>
-            <div class="sign">
-              <label id="lname" for="lname">Last Name:</label>
-              <input
-                type="text"
-                address="lname"
-                placeholder="Enter your last name"
-                required
-              />
-              <div class="error"></div>
-            </div>
-            <div class="sign">
-              <label id="email" for="email">Email:</label>
-              <input
-                type="email"
-                email="email"
-                placeholder="Enter you email"
-                required
-              />
-              <div class="error"></div>
-            </div>
-            <div class="sign">
-              <label for="Available house">Available house:</label>
-              <select name="dropdowm" id="dropdown">
-                <option value=""></option>
-                <option value="House1">Massionate</option>
-                <option value="house2">Apartment</option>
-                <option value="house 2">Hostel</option>
-                <option value="acrylic">one bedroom</option>
-              </select>
-            </div>
-            <div class="sign">
-              <label id=" location" for="location">Location:</label>
-              <input
-                type="text"
-                location="IQ"
-                placeholder="Enter your location"
-                required
-              />
-              <div class="error"></div>
-            </div>
-            <div class="sign">
-              <label id="maximum price" for="max price">Max price:</label>
-              <input
-                type="maximum price"
-                password="max price"
-                placeholder="Enter the maximum price you want to spend"
-                required
-              />
-            </div>
-            <button type="submit" id="button" class="sign">
-              <a href="index.html">Submit</a>
-            </button>
-          </form>
-        </div>
+  <div class="bg">
+    <div class="reg">
+  <div class="card" style="width: 25rem;">
+    <div class="card-body">
+      <h2>Search, find and book from anywhere</h2>
+      <div class="sign">
+        <label id="fname" for="fname">First Name</label>
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter your first name"
+          required
+        />
+        <div class="error"></div>
       </div>
-      <h1>AVAILABLE HOUSES FOR RENT</h1>
-      <div class="home">
-        <div><img src="images/ap1.jpg" height="200" alt="" />
-          <p>This 2 bedroom apartments have been listed <br> home/ke agents who can be contacted using the <br> information provided for each apartment listing. <br> list can be filtered by price, furnishing and recency.
-  </p>
-  <h4>(price ranges from 30,000ksh -45,000ksh)</h4>
-  <button>view property</button>
+      <div class="sign">
+        <label id="lname" for="lname">Last Name:</label>
+        <input
+          type="text"
+          address="lname"
+          placeholder="Enter your last name"
+          required
+        />
+        <div class="error"></div>
       </div>
-  
-        <div><img src="images/ap2.jpg"height= "200" alt="" />
-          <p>This 1 bedroom apartments have been listed <br> home/ke agents who can be contacted using the <br> information provided for each apartment listing. <br> list can be filtered by price, furnishing and recency.</p>
-        
-      <h4>(prices ranges from 20,000ksh- 30,000ksh)</h4>
-      <button>view property</button>
+      <div class="sign">
+        <label id="email" for="email">Email:</label>
+        <input
+          type="email"
+          email="email"
+          placeholder="Enter you email"
+          required
+        />
+        <div class="error"></div>
       </div>
-  
-        <div><img src="images/bk h.jpg"height ="200" alt="" />
-      <p>This massionate have been listed <br> home/ke agents who can be contacted using the <br> information provided for each apartment listing. <br> list can be filtered by price, furnishing and recency.</p>
-     <h4>(price ranges from 50,000 ksh- 100,000 ksh)</h4>
-     <button>View property</button>
+      <div class="sign">
+        <label for="Available house">Available house:</label>
+        <select name="dropdowm" id="dropdown">
+          <option value=""></option>
+          <option value="House1">Massionate</option>
+          <option value="house2">2 bedroom</option>
+          <option value="house 2">one bedroom</option>
+          <option value="acrylic">Hostel</option>
+        </select>
       </div>
-        <div><img src="images/kwetu hostel.jpeg" alt="" />
+      <div class="sign">
+        <label id=" location" for="location">Location:</label>
+        <select name="dropdowm" id="dropdown">
+          <option value=""></option>
+          <option value="House1">Ngong</option>
+          <option value="house2">Kilimani</option>
+          <option value="house 3">kahava</option>
+          <option value="house 4">Juja</option>
+        </select>
+        <div class="error"></div>
+      </div>
+      <div class="sign">
+        <label id="maximum price" for="max price">Max price:</label>
+        <input
+          type="maximum price"
+          password="max price"
+          placeholder="Enter the maximum price you want to spend"
+          required
+        />
+      </div>
+      <button type="submit" id="button" class="sign">
+        <a href="index.html">Submit</a>
+      </button>
+    </form>
+  </div>
+  </div>
+</div>
+</div>
+<h1>AVAILABLE HOUSES FOR RENT</h1>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div><img src="images/kwetu hostel.jpeg" alt="" />
         <p>This Hostel have been listed <br> home/ke agents who can be contacted using the <br> information provided for each apartment listing. <br> list can be filtered by price, furnishing and recency.</p>
         <h4>(price ranges from 10.000 ksh- 15.000ksh)</h4>
         <button>View property</button>
       </div>
+</div>
+    <div class="col">
+      <div><img src="images/ap2.jpg"height= "200" alt="" />
+        <p>This 1 bedroom apartments have been listed <br> home/ke agents who can be contacted using the <br> information provided for each apartment listing. <br> list can be filtered by price, furnishing and recency.</p>
+      
+    <h4>(prices ranges from 20,000ksh- 30,000ksh)</h4>
+    <button>view property</button>
+    </div>
+</div>
+    <div class="col">
+      <div><img src="images/bk h.jpg"height ="200" alt="" />
+        <p>This massionate have been listed <br> home/ke agents who can be contacted using the <br> information provided for each apartment listing. <br> list can be filtered by price, furnishing and recency.</p>
+       <h4>(price ranges from 50,000 ksh- 100,000 ksh)</h4>
+       <button>View property</button>
+        </div>
+
+    </div>
+    <div class="col">
+      <div><img src="images/kwetu hostel.jpeg" alt="" />
+        <p>This Hostel have been listed <br> home/ke agents who can be contacted using the <br> information provided for each apartment listing. <br> list can be filtered by price, furnishing and recency.</p>
+        <h4>(price ranges from 10.000 ksh- 15.000ksh)</h4>
+        <button>View property</button>
       </div>
-    
-        <h1>TAKE A TOUR OF HOW THE INSIDE OF THE HOUSES LOOKS!</h1>
+
+
+    </div>
+  </div>
+</div>
+  <h1>TAKE A TOUR OF HOW THE INSIDE OF THE HOUSES LOOKS!</h1>
 
         <MARQUEE behavior="scroll" direction="left" width="100%">
           <img src="images/two bedroom.jpeg" height="600">
@@ -132,63 +152,79 @@
   <p>Ready to fall in love with your dream home? Home-ke is a property agent  firm mainly dealing with helping clients find homes within Nairobi,<br> have apartments,massionates,one bedrooms and hostels choice at affordable rates.<br> values are founded on a unique recipe for success that has been achieved since the company was founded in 2022. <br> is these principles that serve as a guiding compass for the organisation as a whole and a true north for each individual who carries and represents the home-ke Properties brand.<br> The practice of these standards has governed who we are and how we conduct our business.</p>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="lc">
+        <img src="images/location.png" height ="200" alt="">
+        <p>There's a perfect place to be found in every location for our houses. <br>And a perfect place that is different for every line of the need</p>
 
 
- 
-<div class="sv">
-<h1>It is easy to find houses with us</h1>
-  <div class="lc">
-      <img src="images/location.png" height ="200" alt="">
-      <p>There's a perfect place to be found in every location for our houses. <br>And a perfect place that is different for every line of the need</p>
-
-  
+    </div>
+    <div class="col">
       <img src="images/m valued.png" alt="">
       <p>Time is more valuable than money. You can get more money, but you cannot get more time.<br> are here to save you time on house haunting</p>
  </div>
- <div class="conso">
-     <img src="images/consultants.png" alt="">
-     <p>To get Game-Changing results, start focusing on Game-Changing thoughts.” ...<br> “The price of anything is the amount of life you want get advice from our qualified consultants on the best houses that fits your needs </p>
 
 
+    </div>
+    <div class="col">
+      <div class="conso">
+        <img src="images/consultants.png" alt="">
+        <p>To get Game-Changing results, start focusing on Game-Changing thoughts.” ...<br> “The price of anything is the amount of life you want get advice from our qualified consultants on the best houses that fits your needs </p>
 
-<img src="images/prices.png" alt="">
-<p>we have  indicated the prices to houses if you would be willing to pay and a landlord would be willing to accept for a subsequent transaction in that security</p>
-
-
-</div>
-</div>
-<div class="details">
-  <div class="contacts">
-      <p>
-          CONTACTS:<br>
-         Email:info@home-ke.com<br>
-         Tel:+254(0)728608551<br>
-         Ngong rd,Nairobi kenya<br>
-         </p>
-  </div>
-  <div class="legal">
-        
-          <a href= "images/MARIAL ART GALLERY TERMS OF USE.pdf" id="link"><br> <br> Terms of use
-          </a>
-          
-              
-  </div>
-<div class="news">
-<h4>
-  NEWS & SIGN UP:<br>
-  <form action="index.js">
-      <label for="Email"> Enter Email address</label>
-      <input type="email" id="emails" name="emails" multiple required>
-      <input type="submit">
+    </div>
+    <div class="col">
+      <img src="images/prices.png" alt="">
+      <p>we have  indicated the prices to houses if you would be willing to pay and a landlord would be willing to accept for a subsequent transaction in that security</p>
       
-</form>
+    </div>
 
-</h4>
-</div>
-</div>
+  </div>
+    </div>
+  </div>
 
   
-  
-  
+
+<div class="card-group">
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Contacts:</h5>
+      <p class="card-text">
+        CONTACTS:<br>
+       Email:info@home-ke.com<br>
+       Tel:+254(0)728608551<br>
+       Ngong rd,Nairobi kenya<br>
+       </p>
+</div>
+      
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">LEGAL:</h5>
+      <p class="card-text">Legals<br>
+        Terms<br>
+        Privacy<br>
+        Feedback & Complaints<br</p>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">SIGN UP</h5>
+      <p class="card-text">
+        NEWS & SIGN UP:<br>
+        <form action="index.js">
+            <label for="Email"> Enter Email address</label>
+            <input type="email" id="emails" name="emails" multiple required>
+            <input type="submit">
+            </form></p>
+    </div>
+  </div>
+</div>
+
+
+
+
 </body>
 </html>
