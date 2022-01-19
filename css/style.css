@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .About{
 background-image: url('../images/marble.jpg');
 text-align: center;
@@ -68,3 +69,21 @@ padding-top: 40px;
     text-align: center;
     color: black;
 }
+=======
+#popup {
+    display: none; 
+    position: fixed; 
+    background-color: rgba(0,0,0,0.4);
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+  }
+  
+  #popup-content {
+    background-color: white;
+    padding: 15px;
+    width: 60%; 
+    margin: 25% auto;
+  }
+>>>>>>> 45be0b4f5b376f174a69684c35ab9c669aa12197
