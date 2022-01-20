@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .About{
 background-image: url('../images/marble.jpg');
 text-align: center;
@@ -69,6 +70,8 @@ padding-top: 40px;
     text-align: center;
     color: black;
 =======
+=======
+>>>>>>> 6e64955a9e23130a36b946663ec4cdb3326101b5
 #slider{
     overflow: hidden;
 }
@@ -112,5 +115,13 @@ padding-top: 40px;
         left: -400%;
     }
 
+<<<<<<< HEAD
 >>>>>>> 76aeed7276b6fb36388e30b9b8cf44bb5a229363
+=======
+}
+
+h4{
+    text-align: center;
+    color: steelblue;
+>>>>>>> 6e64955a9e23130a36b946663ec4cdb3326101b5
 }
