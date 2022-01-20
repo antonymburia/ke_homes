@@ -20,7 +20,7 @@ function filterresults(){
        if (room == 'house2' && location == 'kilimani' && maxprice >= twobr) {
         var result = document.getElementById("2");
        } else {
-         if (room == 'House1' && location == 'gong' && maxprice >= threebr) {
+         if (room == 'House1' && location == 'ngong' && maxprice >= threebr) {
           var result = document.getElementById("3");
          } else {
            document.getElementById("results").innerHTML = 'Sorry there are no results matching your search';
